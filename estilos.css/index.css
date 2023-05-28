@@ -89,6 +89,27 @@ body{
     flex: 0 0 100%;
     scroll-snap-align: start;
   }
+  .contListaNav{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    background: rgb(30, 28, 28);
+}
+.contListaNav li{
+    padding: 0;
+    margin: 0.5% 1.5%;
+
+}
+.contListaNav a:hover{
+    color: rgb(238, 135, 151);
+    border-bottom: 1px solid wheat;
+}
+.aennav {
+    font-family: Impact,sans-serif;
+    text-decoration: none;
+    color: white;
+}
   
    
  
