@@ -1,38 +1,28 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <link rel="stylesheet" href="../estilos.css/formu.css">
-
-    <title>Mateyté/Contactos</title>
-    <link rel="shortcut icon" href="../imagenes.jpg/iconoTetera.jpg" type= "iconoTetera">
-
+    <link rel="stylesheet" href="../estilos.css/contactacto.css">
     <style >@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');</style>
-    <script src="../form.js"></script>
-    <script src="../"></script>
-    
-   
+    <script src="form.js"></script>
+    <script src="pruebaaxios.js"></script>
+    <title>Contacto Mateyté</title>
 </head>
 <body>
-<strong><h1 class="titulo">MATEYTE</h1></strong>
-<span class="texto-borde"><h2>Casa de Delicias con mate y té</h2></span>
-
-
-
 <header>
-    <nav>
-        <a style="background-color: rgb(51, 107, 172); color:white" href="index.html">INICIO</a>
-        <a style="background-color:rgb(51, 107, 172); color:white"#00 href="../page.html/menu.html">MENU</a>
-        <a style="background-color: rgb(51, 107, 172); color:white" href="../page.html/esquiciteces.html">ESQUICITESES</a>
-    </nav>
+    <h1 class="titulo">MATEYTE</h1>
+    <span class="texto-borde"><h2>Casa de Delicias con mate y té</h2></span>
     <br>
     <br>
-
-
 </header>
+<nav>
+    <ul class="contListaNav">
+        <li><a class="aennav" href="index.html">INICIO</a></li>
+        <li><a class="aennav" href="menu.html">MENU</a></li>
+    </ul>
+</nav>
 <div class="contenedorTodo">
     <div class="ambosforms">
         <h1>Ingrese sus datos para solicitar información</h1>
@@ -63,23 +53,24 @@
     <div class="ubicacion">
         <h1 style="text-align: center">Nuestra ubicación </h1>
         <h2 style="text-align: center">Rosario 4321 BS-AS</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d615.0164137019563!2d-58.370899583844285!3d-34.60939092987471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sar!4v1684993774471!5m2!1sen!2sar"
-         width="300" height="" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d615.0164137019563!2d-58.370899583844285!3d-34.60939092987471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sar!4v1684993774471!5m2!1sen!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </div>
+<div class="contenedorComentarios">
+    <h1 style="text-align: center">Comentarios del publico</h1>
+    <div class="muestrapizza">
 
-    <div class="muestrasdelicias">
 
         <div class="texto">
-            <h3 id="tipodepastel">TItulo ejemplo</h3>
-            <div class="articulo"><p id="articulopro"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, tempora. </p></div>
+            <h3 id="tipodePizza">Lorem ipsum.</h3>
+            <div class="articulo"><p id="articulopro"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, tempora? </p></div>
             <span class="firmamail" id="emailACA">perro@aol.com</span>
         </div>
-        <br><br><br>
+        <br><br></div>
 
 
 
-    <div>
+
         <button onclick="sumar(elegirelem(p))" class="botonaso" id="boton">Siguiente Review</button>
         <div class="explicacionGral">
             <article>
@@ -87,20 +78,13 @@
                     <br>Los datos originales(titulo, texto y mail) estan escritos en el propio html de la pagina. al presionar el boton <span class="resal">siguiente review</span>
                     se simula un intercalado de reviews, pero accediendo a ellos mediante la API
                 </p>
-                
-                <div class="contenedor-imagen">
-                    <img src="../imagenes.jpg/teniñaFrente.jpg" alt="niñaTomandoTé" id="niñaTé">
-                  </div>
-                  
-
-
             </article>
         </div>
 </div>
 <footer>
     <div>
         <ul class="footerUL">
-            <li><a href="../page.html/contacto.html"><strong>Visita Nuestra Página</strong></a></li>
+            <li><a href="index.html"><strong>Visita Nuestra Página</strong></a></li>
         </ul>
 
         <p class="address">4321 Rosario - Buenos Aires - Argentina</p>

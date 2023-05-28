@@ -3,6 +3,7 @@ body{
     background: radial-gradient(circle, rgba(238,174,227,1) 0%, rgba(148,214,233,1) 100%);
 }
 
+
 .titulo{
     font-family: 'Dancing Script', cursive;
     color: rgb(230, 103, 124);
@@ -10,13 +11,15 @@ body{
     margin-top: 20;
     margin-bottom: 15px;
     text-align: center;
+    text-shadow: 0.1em 0.1em #eea0a0;
+  
 }
 .texto-borde{
     -webkit-text-stroke: 2px black;
     color: transparent;
-    color:#f7b385;
+    color: rgb(230, 103, 124);
     font-family:Impact;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
 .input{
@@ -36,10 +39,8 @@ body{
     justify-content: center;
     border: 6px solid black;
     border-radius: 3% ;
+    box-shadow: 0 0 10px black;
 }
-
-
-
 footer{
     display: flex;
     justify-content: center;
@@ -50,7 +51,8 @@ footer{
     padding-bottom: 50px;
     font-size: 20px;
     color:rgb(16, 7, 80);
-    width: fit-content;
+    width: 100%;
+    border-top:1px solid  #4C516D;
 }
 .footerUL{
     padding: 0;
@@ -71,20 +73,52 @@ footer a:hover{
     padding:0 ;
     margin: 0;
 }
-h4{
-    width: 10px;
-    align-items: center;
+
+.contenedorComentarios{
+    display: flex;
+    background: rgba(236, 131, 152 .80);
+    margin: 2% auto;
+    justify-content: center;
+    border: 6px solid black;
+    border-radius: 3% ;
+    box-shadow: 0 0 10px black;
+    display: block;
+    width: 50%;
+}
+.contListaNav{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    background: rgb(30, 28, 28);
+}
+.contListaNav li{
+    padding: 0;
+    margin: 0.5% 1.5%;
 
 }
-.contenedor-imagen {
-    width: 65%; /* Ancho del contenedor */
-    margin: 0 auto; /* Centrar el contenedor horizontalmente */
-   
-  }
-  #niñaTé {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    width: 30%; /* Modifica el valor según el tamaño deseado */
-    height: auto; /* Para mantener la proporción de la imagen */
-  }
+.contListaNav a:hover{
+    color: rgb(230, 103, 124);
+    border-bottom: 1px solid wheat;
+}
+.aennav {
+    font-family: Impact,sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.texto{
+    display: block;
+    background: rgba(245, 222, 179, 0.57);
+
+    padding: 2% ;
+}
+.explicacionGral{
+    border-top: 1px solid rgb(30, 28, 28);
+    background: ;
+}
+.textoD{
+    padding:2%;
+}
+.botonaso{
+    margin-bottom: 1%;
+}
