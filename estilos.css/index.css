@@ -94,7 +94,7 @@ body{
     list-style: none;
     display: flex;
     width: 100%;
-    background: rgb(30, 28, 28);
+    background: rgba(190, 111, 245, 0.847);
 }
 .contListaNav li{
     padding: 0;
